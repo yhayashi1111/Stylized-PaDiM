@@ -34,7 +34,7 @@ def parse_args():
     parser.add_argument('--resize', type=int,  default=256)
     parser.add_argument('--crop', type=int,  default=224)
     parser.add_argument('--eps', type=int,  default=8)
-    parser.add_argument('--size', type=int,  default=112)
+    parser.add_argument('--size', type=int,  default=8)
 
     return parser.parse_args()
 
